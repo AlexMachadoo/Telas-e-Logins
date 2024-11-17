@@ -1,0 +1,38 @@
+# General
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ/Android Studio related
+*.iml
+*.ipr
+*.iws
+.idea/
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# VS Code
+# Uncomment the next line if you want to ignore VS Code configuration files
+#.vscode/
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Symbolication and Obfuscation related
+app.*.symbols
+app.*.map.json

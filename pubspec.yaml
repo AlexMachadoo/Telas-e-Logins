@@ -1,0 +1,48 @@
+name: new_login_screen
+description: "A new Flutter project."
+
+# Previna publicação acidental no pub.dev
+publish_to: 'none'
+
+# Versão do aplicativo
+version: 1.0.0+1
+
+# Versão mínima do SDK do Dart para o projeto
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+# Dependências do projeto
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Ícones estilo iOS
+  cupertino_icons: ^1.0.6
+
+  # Firebase
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Lints para boas práticas de código
+  flutter_lints: ^5.0.0
+
+# Configurações específicas do Flutter
+flutter:
+  # Inclui fontes padrão do Material Design
+  uses-material-design: true
+
+  # Exemplos para incluir assets (descomentar e personalizar caso necessário)
+  # assets:
+  #   - assets/images/
+
+  # Exemplos para customizar fontes (descomentar e personalizar caso necessário)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
